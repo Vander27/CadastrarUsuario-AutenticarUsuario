@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Área Restrita</title>
+
+    <!--folhas de estilo CSS-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body class="container">
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <h2>Seja bem vindo ao Sistema</h2>
+            Desenvolvedor C# WebDeveloper - Vanderlei Campos
+            <hr />
+
+        </div>
+            <div class="col-md-4 text-right">
+                <strong>Usuário logado:</strong> <br />
+                @User.Identity.Name | <a href="/Usuario/Logout">Sair</a>
+            </div>
+        </div>
+    
+
+   
+    <!-- Área principal do layout -->
+    @RenderBody()
+
+</body>
+</html>

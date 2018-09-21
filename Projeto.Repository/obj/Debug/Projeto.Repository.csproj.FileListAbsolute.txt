@@ -1,0 +1,11 @@
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\obj\Debug\Projeto.Repository.csprojAssemblyReference.cache
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.CoreCompileInputs.cache
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Projeto.Repository.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Projeto.Repository.pdb
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Dapper.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Projeto.Entities.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Projeto.Entities.pdb
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\bin\Debug\Dapper.xml
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.CopyComplete
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\obj\Debug\Projeto.Repository.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Repository\obj\Debug\Projeto.Repository.pdb

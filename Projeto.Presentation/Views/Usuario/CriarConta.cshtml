@@ -1,0 +1,70 @@
+﻿@model Projeto.Presentation.Models.UsuarioCriarContaViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VJC</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="container">
+    <div>
+        <h2>Criar conta de Usuário</h2>
+        <a href="/Home/Index">Página inicial</a>
+        <hr />
+
+        @using (Html.BeginForm("CadastrarUsuario", "Usuario", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="col-md-4">
+
+                    <label>Nome do Usuário</label>
+                    @Html.TextBoxFor(model => model.Nome,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.Nome)
+                    </span>
+                    <br />
+
+                    <label>Email</label>
+                    @Html.TextBoxFor(model => model.Email,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </span>
+                    <br />
+
+                    <label>Senha</label>
+                    @Html.PasswordFor(model => model.Senha,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.Senha)
+                    </span>
+                    <br />
+
+                    <label>Confirme a Senha</label>
+                    @Html.PasswordFor(model => model.SenhaConfirm,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.SenhaConfirm)
+                    </span>
+                    <br />
+
+                    <input type="submit" value="Cadastrar Usuário"
+                           class="btn btn-success btn-lg" />
+                    <br />
+                    <br />
+
+                    @ViewBag.Mensagem
+
+                </div>
+            </div>
+      
+         }
+
+    </div>
+</body>
+</html>

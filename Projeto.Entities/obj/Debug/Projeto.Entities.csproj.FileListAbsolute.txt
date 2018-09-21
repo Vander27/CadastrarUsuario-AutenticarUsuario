@@ -1,0 +1,6 @@
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\bin\Debug\Projeto.Entities.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\bin\Debug\Projeto.Entities.pdb
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\obj\Debug\Projeto.Entities.csprojAssemblyReference.cache
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\obj\Debug\Projeto.Entities.csproj.CoreCompileInputs.cache
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\obj\Debug\Projeto.Entities.dll
+C:\PROJETO GIT\DIA\AGOSTO\INI_DIA2508_01092018 _FIM\Conta de Usuario\Projeto.Entities\obj\Debug\Projeto.Entities.pdb

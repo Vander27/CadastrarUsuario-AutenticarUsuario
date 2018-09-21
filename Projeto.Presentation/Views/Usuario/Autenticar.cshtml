@@ -1,0 +1,54 @@
+﻿@model Projeto.Presentation.Models.UsuarioAutenticarViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VJC - Login</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="container">
+    <div>
+        <h2>Realizar Acesso</h2>
+        <a href="/Home/Index">Página inicial</a>
+        <hr />
+
+        @using (Html.BeginForm("AutenticarUsuario", "Usuario", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="col-md-4">
+
+                    <label>Email de Acesso:</label>
+                    @Html.TextBoxFor(model => model.Email,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </span>
+                    <br />
+
+                    <label>Senha de Acesso:</label>
+                    @Html.PasswordFor(model => model.Senha,
+                        new { @class = "form-control" })
+                    <span class="text-danger">
+                        @Html.ValidationMessageFor(model => model.Senha)
+                    </span>
+                    <br />
+
+                    <input type="submit" value="Login"
+                           class="btn btn-success" />
+                    <br />
+                    <a href="">Equeçeu a senha?</a>
+                    
+
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+</body>
+</html>
